@@ -9,6 +9,7 @@ import {
   AppRegistry,
   Text,
 } from 'react-native';
+import LotsOfGreetings from './components/lots_of_greetings';
 
 export default class TestApp extends Component {
   render() {
@@ -18,4 +19,4 @@ export default class TestApp extends Component {
   }
 }
 
-AppRegistry.registerComponent('TestApp', () => TestApp);
+AppRegistry.registerComponent('TestApp', () => LotsOfGreetings);
