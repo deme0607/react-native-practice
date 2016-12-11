@@ -28,7 +28,11 @@ import FlexDimensionsBasics from './components/height_and_width/flex_dimensions_
 /* https://facebook.github.io/react-native/docs/flexbox.html
 import FlexDirectionBasics from './components/flexbox/flex_direction_basics';
 import JustifyContentBasics from './components/flexbox/justify_content_basics';
-*/
 import AlignItemsBasics from './components/flexbox/align_items_basics';
+*/
 
-AppRegistry.registerComponent('TestApp', () => AlignItemsBasics);
+/* https://facebook.github.io/react-native/docs/handling-text-input.html
+ */
+import PizzaTranslator from './components/handling_text_input/pizza_translator';
+
+AppRegistry.registerComponent('TestApp', () => PizzaTranslator);
