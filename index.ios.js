@@ -10,6 +10,7 @@ import {
   Text,
 } from 'react-native';
 import BlinkApp from './components/blink_app';
+import LotsOfStyles from './components/lots_of_styles';
 
 export default class TestApp extends Component {
   render() {
@@ -19,4 +20,4 @@ export default class TestApp extends Component {
   }
 }
 
-AppRegistry.registerComponent('TestApp', () => BlinkApp);
+AppRegistry.registerComponent('TestApp', () => LotsOfStyles);
