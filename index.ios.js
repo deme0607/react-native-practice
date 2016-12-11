@@ -36,7 +36,11 @@ import PizzaTranslator from './components/handling_text_input/pizza_translator';
  */
 
 /* https://facebook.github.io/react-native/docs/using-a-scrollview.html
- */
 import IScrolledDownAndWhatHappenedNextShockedMe from './components/using_a_scrollview/is_scrolled_down_and_what_happened_next_shocked_me';
+ */
 
-AppRegistry.registerComponent('TestApp', () => IScrolledDownAndWhatHappenedNextShockedMe);
+/* https://facebook.github.io/react-native/docs/using-a-listview.html
+ */
+import ListViewBasics from './components/using_a_listview/list_view_basics';
+
+AppRegistry.registerComponent('TestApp', () => ListViewBasics);
