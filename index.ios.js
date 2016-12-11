@@ -11,6 +11,8 @@ import {
 } from 'react-native';
 import BlinkApp from './components/blink_app';
 import LotsOfStyles from './components/lots_of_styles';
+import FixedDimensionsBasics from './components/fixed_dimensions_basics';
+import FlexDimensionsBasics from './components/flex_dimensions_basics';
 
 export default class TestApp extends Component {
   render() {
@@ -20,4 +22,4 @@ export default class TestApp extends Component {
   }
 }
 
-AppRegistry.registerComponent('TestApp', () => LotsOfStyles);
+AppRegistry.registerComponent('TestApp', () => FlexDimensionsBasics);
