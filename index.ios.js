@@ -43,4 +43,8 @@ import IScrolledDownAndWhatHappenedNextShockedMe from './components/using_a_scro
  */
 import ListViewBasics from './components/using_a_listview/list_view_basics';
 
-AppRegistry.registerComponent('TestApp', () => ListViewBasics);
+/* https://facebook.github.io/react-native/docs/network.html#content
+ */
+import MoviesListView from './components/network/movies_list_view';
+
+AppRegistry.registerComponent('TestApp', () => MoviesListView);
