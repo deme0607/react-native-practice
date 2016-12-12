@@ -44,7 +44,12 @@ import IScrolledDownAndWhatHappenedNextShockedMe from './components/using_a_scro
 import ListViewBasics from './components/using_a_listview/list_view_basics';
 
 /* https://facebook.github.io/react-native/docs/network.html#content
- */
 import MoviesListView from './components/network/movies_list_view';
+ */
 
-AppRegistry.registerComponent('TestApp', () => MoviesListView);
+/* https://facebook.github.io/react-native/docs/using-navigators.html
+import YoDawgApp from './components/using_navigators/yo_dawg_app';
+ */
+import SimpleNavigationApp from './components/using_navigators/simple_navigation_app';
+
+AppRegistry.registerComponent('TestApp', () => SimpleNavigationApp);
